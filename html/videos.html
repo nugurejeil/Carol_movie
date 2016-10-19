@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Evan Han">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carol_videos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type="text/javascript" charset="utf-8" src="../js/index.js"></script>
+</head>
+<body>
+    <header id="global_header">
+        <nav class="global_header_gnb">
+        <ul class="clearfix">
+            <li><a href="../html/index.html" rel="external">ABOUT</a></li>
+            <li>
+            <a href="../html/cast.html" rel="external">CAST</a></li>
+            <li><a href="../html/videos.html" rel="external">VIDEOS</a></li>
+            <li><a href="../html/photo.html" rel="external">PHOTOS</a></li>
+            <li><a href="http://gowatchit.com/movies/carol-302278">OWN CAROL</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main id="video_main" class="clearfix">
+        <a href="../html/index.html" class="video_main_logo">
+            <img src="../img/logo.png" alt="logo" title="back to home">
+        </a>
+        
+        <ul class="clearfix video_main_list">
+            <li>
+                <button id="main_trailer" onclick="play_trailer(this.id)">
+                <img src="../img/Trailer-One-Thumbnail.jpg" alt="trailer_one" title="MainTrailer">
+                </button>
+            </li>
+            <li>
+                <button id="main_trailer2" onclick="play_trailer(this.id)">
+                <img src="../img/Trailer-Two-Thumbnail.jpg" alt="trailer_two" title="TeaserTrailer">
+                </button>
+            </li>
+            <li>
+                <button id="movie_clip1" onclick="play_trailer(this.id)">
+                <img src="../img/movie-clip-01.jpg" alt="movie-clip-01" title="movie-clip-01">
+                </button>
+            </li>
+            <li>
+                <button id="movie_clip2" onclick="play_trailer(this.id)">
+                <img src="../img/movie-clip-02.jpg" alt="movie-clip-02" title="movie-clip-02">
+                </button>
+            </li>
+            <li>
+                <button id="movie_clip3" onclick="play_trailer(this.id)">
+                <img src="../img/movie-clip-03.jpg" alt="movie-clip-03" title="movie-clip-03">
+                </button>
+            </li>
+        </ul>
+        <div id="trailer_player">
+            <iframe width="560" height="315" src="" frameborder="0" allowfullscreen id="trailer_player_content"></iframe>
+            <i onclick="close_trailer()" class="fa fa-times tubular-play"></i>
+        </div>
+    </main>
+    <footer id="global_footer">
+        <p>The Weinstein Company</p>
+        <p>&#169;2015 Weinstein Films. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

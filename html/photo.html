@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Evan Han">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>carol_photo</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../js/modernizr.custom_photo.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="global_header">
+        <nav class="global_header_gnb">
+        <ul class="clearfix">
+            <li><a href="../html/index.html" rel="external">ABOUT</a></li>
+            <li>
+            <a href="../html/cast.html" rel="external">CAST</a></li>
+            <li><a href="../html/videos.html" rel="external">VIDEOS</a></li>
+            <li><a href="../html/photo.html" rel="external">PHOTOS</a></li>
+            <li><a href="http://gowatchit.com/movies/carol-302278">OWN CAROL</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <div class="main">
+        <ul id="photo_main_slideshow" class="photo_main_slideshow">
+            <li><img src="../img/photo01.jpg" alt="image01" title=""/></li>
+            <li><img src="../img/photo02.jpg" alt="image02" title=""/></li>
+            <li><img src="../img/photo03.jpg" alt="image03" title=""/></li>
+            <li><img src="../img/photo04.jpg" alt="image04" title=""/></li>
+            <li><img src="../img/photo05.jpg" alt="image05" title=""/></li>
+            <li><img src="../img/photo06.jpg" alt="image06" title=""/></li>
+            <li><img src="../img/photo07.jpg" alt="image07" title=""/></li>
+            <li><img src="../img/photo08.jpg" alt="image08" title=""/></li>
+            <li><img src="../img/photo09.jpg" alt="image09" title=""/></li>
+        </ul>
+        <div id="photo_main_controls" class="photo_main_controls">
+            <span class="prev">
+                <i class="fa fa-angle-left"></i>
+            </span>
+            <span class="next">
+                <i class="fa fa-angle-right"></i>
+            </span>
+        </div>
+        <a href="../html/index.html" class="photo_main_logo">
+            <img src="../img/logo.png" alt="logo" title="back to home">
+        </a>
+    </div>
+    
+    <footer id="global_footer">
+        <p>The Weinstein Company</p>
+        <p>&#169;2015 Weinstein Films. All Rights Reserved</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- imagesLoaded jQuery plugin by @desandro : https://github.com/desandro/imagesloaded -->
+    <script src="../js/jquery.imagesloaded.min.js"></script>
+    <script src="../js/cbpBGSlideshow_photo.js"></script>
+    <script>
+        $(function() {
+            cbpBGSlideshow.init();
+        });
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Evan Han">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>carolfilm</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../js/jquery.tubular.1.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../js/index.js"></script>
+</head>
+<body>
+    <header id="global_header">
+        <nav class="global_header_gnb">
+        <ul class="clearfix">
+            <li><a href="#" rel="external">ABOUT</a></li>
+            <li>
+            <a href="../html/cast.html" rel="external">CAST</a></li>
+            <li><a href="../html/videos.html" rel="external">VIDEOS</a></li>
+            <li><a href="../html/photo.html" rel="external">PHOTOS</a></li>
+            <li><a href="http://gowatchit.com/movies/carol-302278">OWN CAROL</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main id="index_main" >
+         <div id="wrapper">
+            <a href="#" class="index_main_link">
+                <img src="../img/home_title.png" alt="">
+            </a>
+            <a href="#" id="main_trailer" onclick="play_trailer(this.id)" class="tubular-pause">
+                <img src="../img/home_button.png" alt="">
+            </a>
+            <div id="trailer_player">
+                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen id="trailer_player_content"></iframe>
+                <i onclick="close_trailer()" class="fa fa-times tubular-play"></i>
+            </div>
+            
+            <div>
+                <img src="../img/home_variety.png" alt="">
+            </div>
+            <div class="index_main_critic">
+                <q>"Cate Blanchett gives an incandescent lead performance"</q>
+                <em>VARIETY,</em>
+                <span>Justin Chang</span>
+            </div>
+        </div>
+    </main>
+   
+    <footer id="global_footer">
+        <p>The Weinstein Company</p>
+        <p>&#169;2015 Weinstein Films. All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+
+
